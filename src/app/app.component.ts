@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app';
 
-  first: number = 7;
-  second: number = 5;
+  first: number = 75;
+  second: number = 80;
+  sum: number = this.first + this.second;
+  max: number = Math.max(this.first, this.second);
 }
